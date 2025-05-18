@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+.video-estilo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.video-container{
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: transform 0.2s ease-in-out;
+        }
+        
+canvas {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: transform 0.2s ease-in-out;
+        }
+
+.logo {
+        font-size: 36px;
+        font-weight: bold;
+        color: white;
+    }
+
+
+#btnCP:active, #btnCP.active {
+  background-color: #f07e17;
+  color: white;
+}
+
+#btn18:active, #btn18.active {
+  background-color: #f07e17;
+  color: white;
+}
+
+#btnTodos:active, #btnTodos.active {
+  background-color: #f07e17;
+  color: white;
+}
+
+button {
+    font-weight: bold;
+    border-radius: 4px;
+    border: none;
+    margin: 5px;
+}
