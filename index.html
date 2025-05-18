@@ -39,7 +39,7 @@
       const contenedor = document.getElementById("video-section");
 
       try {
-        const response = await fetch("https://elmundopro.uca.icu/files.php");
+        const response = await fetch("https://AngelTolpoco.github.io/files-movalc/files.json");
         const datos = await response.json();
 
         const contenido = datos.filter(item => item.Tipo === '18');
